@@ -1,2 +1,4 @@
 # execa-process-log
-warp execa into promise and output logs in process
+
+Initialized by [vivaxy/gt-npm-package](https://github.com/vivaxy/gt-npm-package)
+
