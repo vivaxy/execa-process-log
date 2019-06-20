@@ -18,12 +18,13 @@
   "author": "vivaxy",
   "license": "MIT",
   "bugs": {},
-  "dependencies": {
-    "execa": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-vivaxy": "^0.1.1",
     "standard-version": "^4.0.0"
+  },
+  "peerDependencies": {
+    "execa": "*"
   }
 }
