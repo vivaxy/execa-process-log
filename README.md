@@ -7,9 +7,11 @@ Initialized by [vivaxy/gt-npm-package](https://github.com/vivaxy/gt-npm-package)
 `yarn add @vivaxy/execa-process-log`
 
 ```js
-import execaProcessLog from '@vivaxy/execa-process-log';
+const execaProcessLog = require('@vivaxy/execa-process-log');
 // ...
 // output log to process while running npm publish
-execaProcessLog('npm', ['publish']);
+(async function() {
+    await execaProcessLog('npm', ['publish']);
+})()
 // ...
 ```

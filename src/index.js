@@ -3,10 +3,10 @@
  * @author vivaxy
  */
 
-import execa from 'execa';
+const execa = require('execa');
 
-export default (file, args) => {
-    const promise = execa(file, args);
+module.exports = function execaProcessLog(file, args, opt) {
+    const promise = execa(file, args, opt);
     promise.stdout.pipe(process.stdout);
     promise.stderr.pipe(process.stderr);
     return promise;
