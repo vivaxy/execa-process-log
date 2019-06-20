@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/vivaxy/execa-process-log/compare/v0.1.2...v0.2.0) (2019-06-20)
+
+
+### Features
+
+* **execa:** :sparkles: Passing opt to execa ([1b6a59a](https://github.com/vivaxy/execa-process-log/commit/1b6a59a))
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/vivaxy/execa-process-log/compare/v0.1.1...v0.1.2) (2017-04-11)
 
