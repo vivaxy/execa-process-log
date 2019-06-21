@@ -20,7 +20,7 @@
   "bugs": {},
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^4.18.2",
     "eslint-config-vivaxy": "^0.1.1",
     "execa": "^1.0.0",
     "standard-version": "^4.0.0"
